@@ -1,6 +1,7 @@
 import React from "react";
 import { CircleEllipsis, Layers, Database } from "lucide-react";
 import SectionHeading from "@/moduels/Header";
+import TopGradientLayers from "@/moduels/TopGradientLayer";
 
 const steps = [
   {
@@ -28,11 +29,8 @@ const steps = [
 
 const AgencyHowItWorks = () => {
   return (
-    <section
-      className="relative bg-black text-white py-20 overflow-hidden"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
+    <section className="relative bg-black text-white py-20 overflow-hidden">
+      <TopGradientLayers />
       <div className="container mx-auto px-4">
         {/* Header */}
         <div

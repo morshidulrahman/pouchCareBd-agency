@@ -8,10 +8,12 @@ import { Star } from "lucide-react";
 import TestimonialFeature from "@/moduels/TestimonialFeature";
 import SectionHeading from "@/moduels/Header";
 import Button from "./Button";
+import TopGradientLayers from "@/moduels/TopGradientLayer";
 
 export default function TestimonialSection() {
   return (
     <section className="py-16 bg-black text-white relative">
+      <TopGradientLayers />
       <div className="container mx-auto px-4">
         <div
           className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-10"

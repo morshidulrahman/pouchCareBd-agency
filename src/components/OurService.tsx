@@ -27,11 +27,7 @@ const services = [
 
 const OurService = () => {
   return (
-    <section
-      className="relative bg-black text-white py-20 overflow-hidden"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
+    <section className="relative bg-black text-white py-20 overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div
@@ -98,64 +94,67 @@ const OurService = () => {
             Get Free Quote
           </a>
         </div>
-      </div>
-      {/* Expertise Section */}
-      <div
-        className="max-w-5xl mx-auto mt-16 rounded-2xl p-1"
-        style={{
-          background: "linear-gradient(90deg, #bff747 0%, #bff747 100%)",
-        }}
-        data-aos="fade-up"
-        data-aos-delay={services.length * 200 + 200}
-        data-aos-duration="900"
-      >
-        <div className="bg-black rounded-2xl p-10 flex flex-col md:flex-row gap-10 items-center">
-          {/* Left: Heading and Stats */}
-          <ServiceCounter />
-          {/* Right: Features */}
-          <div className="flex-1 grid grid-cols-1 gap-6">
-            <div className="flex items-start gap-3">
-              <Image
-                src="/icon-sub-heading.svg"
-                alt="staricon"
-                width={16}
-                height={16}
-                className="w-4 h-4 mt-1"
-              ></Image>
-              <div>
-                <span className="font-semibold text-white">
-                  Social Media Management:{" "}
-                </span>
-                <span className="text-gray-300 text-sm">
-                  Our social media management services focus on building and
-                  enhancing your brand&apos;s online presence. We create
-                  engaging content, manage your social media accounts, and
-                  analyze performance.
-                </span>
+
+        <div
+          className="p-2 mt-16 rounded-2xl max-w-5xl mx-auto"
+          style={{
+            background: "linear-gradient(90deg, #bff747 0%, #bff747 100%)",
+          }}
+          data-aos="fade-up"
+          data-aos-delay={services.length * 200 + 200}
+          data-aos-duration="900"
+        >
+          <div className="bg-black rounded-2xl p-10 flex flex-col md:flex-row gap-10 items-center">
+            {/* Left: Heading and Stats */}
+            <ServiceCounter />
+            {/* Right: Features */}
+            <div className="flex-1 grid grid-cols-1 gap-6">
+              <div className="flex items-start gap-3">
+                <Image
+                  src="/icon-sub-heading.svg"
+                  alt="staricon"
+                  width={16}
+                  height={16}
+                  className="w-4 h-4 mt-1"
+                ></Image>
+                <div>
+                  <span className="font-semibold text-white">
+                    Social Media Management:{" "}
+                  </span>
+                  <span className="text-gray-300 text-sm">
+                    Our social media management services focus on building and
+                    enhancing your brand&apos;s online presence. We create
+                    engaging content, manage your social media accounts, and
+                    analyze performance.
+                  </span>
+                </div>
               </div>
-            </div>
-            <div className="flex items-star gap-3">
-              <Image
-                src="/icon-sub-heading.svg"
-                alt="staricon"
-                width={16}
-                height={16}
-                className="w-4 h-4 mt-1"
-              ></Image>
-              <div>
-                <span className="font-semibold text-white">
-                  E-commerce Solutions:{" "}
-                </span>
-                <span className="text-gray-300 text-sm">
-                  Our e-commerce solutions are designed to create seamless
-                  online shopping experiences. From user-friendly website design
-                  to secure payment processing and inventory management.
-                </span>
+              <div className="flex items-star gap-3">
+                <Image
+                  src="/icon-sub-heading.svg"
+                  alt="staricon"
+                  width={16}
+                  height={16}
+                  className="w-4 h-4 mt-1"
+                ></Image>
+                <div>
+                  <span className="font-semibold text-white">
+                    E-commerce Solutions:{" "}
+                  </span>
+                  <span className="text-gray-300 text-sm">
+                    Our e-commerce solutions are designed to create seamless
+                    online shopping experiences. From user-friendly website
+                    design to secure payment processing and inventory
+                    management.
+                  </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      {/* Expertise Section */}
+
       {/* Optional: Decorative background */}
       <BottomLayer />
     </section>

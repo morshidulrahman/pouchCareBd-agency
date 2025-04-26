@@ -11,17 +11,13 @@ import Image from "next/image";
 const ServiceComponents = () => {
   return (
     <main>
-      <section
-        className="bg-black text-white py-24 relative overflow-hidden"
-        data-aos="fade-up"
-        data-aos-duration="1000"
-      >
+      <section className="bg-black text-white py-24 relative overflow-hidden">
         {/* Background Layer Effect */}
         <div className="absolute inset-0 bg-gradient bg-[radial-gradient(circle_at_top_left,rgba(37,211,102,0.15),transparent_50%)]"></div>
 
         <div className="container mx-auto px-4 relative z-10">
           {/* Header */}
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div>
               <div data-aos="fade-right" data-aos-duration="1000">
                 <SectionHeading title="Services" />

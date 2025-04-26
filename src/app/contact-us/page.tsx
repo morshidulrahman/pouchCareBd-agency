@@ -1,9 +1,20 @@
+import BannerMarque from "@/components/BannerMarque";
+import LetsWorkTogether from "@/components/LetsWorkTogether";
+import ContactUs from "@/moduels/ContactUs";
+import HeaderComponent from "@/moduels/HeaderComponent";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <h1>contact us</h1>
+      <HeaderComponent
+        title="Contact"
+        highlight="us"
+        breadcrumb={[{ label: "Home", href: "/" }, { label: "Contact us" }]}
+      />
+      <BannerMarque />
+      <ContactUs />
+      <LetsWorkTogether />
     </div>
   );
 };

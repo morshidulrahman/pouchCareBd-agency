@@ -9,11 +9,7 @@ import BottomLayer from "@/moduels/BottomLayer";
 
 const AboutAgency = () => {
   return (
-    <section
-      className="relative bg-black text-white py-20 overflow-hidden"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
+    <section className="relative bg-black text-white py-20 overflow-hidden">
       <div className="container mx-auto px-4 flex flex-col lg:flex-row gap-10 items-center">
         {/* Left Side */}
         <div

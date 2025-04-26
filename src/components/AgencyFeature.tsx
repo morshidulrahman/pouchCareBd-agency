@@ -1,5 +1,6 @@
 "use client";
 import SectionHeading from "@/moduels/Header";
+import TopGradientLayers from "@/moduels/TopGradientLayer";
 import React, { useState } from "react";
 
 const TABS = [
@@ -64,11 +65,8 @@ const AgencyFeature = () => {
       : FEATURES.filter((item) => item.category === activeTab);
 
   return (
-    <section
-      className="relative bg-black text-white py-20 overflow-hidden"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
+    <section className="relative bg-black text-white py-20 overflow-hidden">
+      <TopGradientLayers />
       <div className="container mx-auto px-4">
         {/* Header */}
         <div

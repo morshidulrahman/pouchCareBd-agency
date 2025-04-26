@@ -159,3 +159,55 @@ export const TestimonialData = [
       "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5671.jpg",
   },
 ];
+
+export const newsData = [
+  {
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-1.jpg",
+    title: "UI/UX Design Principles for Better User Engagement",
+  },
+  {
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-2.jpg",
+    title: "UI/UX Design Principles for Better User Engagement",
+  },
+  {
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-3.jpg",
+    title: "UI/UX Design Principles for Better User Engagement",
+  },
+];
+
+
+export const BlogsData = [
+  {
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-1.jpg",
+    title: "UI/UX Design Principles for Better User Engagement",
+  },
+  {
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-2.jpg",
+    title: "UI/UX Design Principles for Better User Engagement",
+  },
+  {
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-3.jpg",
+    title: "UI/UX Design Principles for Better User Engagement",
+  },
+   {
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-1.jpg",
+    title: "UI/UX Design Principles for Better User Engagement",
+  },
+  {
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-2.jpg",
+    title: "UI/UX Design Principles for Better User Engagement",
+  },
+  {
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-3.jpg",
+    title: "UI/UX Design Principles for Better User Engagement",
+  },
+];

@@ -78,9 +78,9 @@ const About = () => {
   return (
     <section className="bg-black text-white py-24 relative overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between lg:flex-row flex-col">
           <div className="lg:w-1/2">
-            <SectionHeading title="About Us" />
+            <SectionHeading title="Seo" />
             <h3 className="text-4xl lg:text-5xl font-bold mb-6">
               Driving <span className="text-primary">growth</span> through
               <br />
@@ -97,9 +97,9 @@ const About = () => {
         </div>
         <div className="flex flex-col lg:flex-row items-center gap-6">
           {/* Left Images */}
-          <div className="lg:w-1/2 flex flex-col items-center relative">
+          <div className="lg:w-1/2 hidden lg:flex flex-col items-center relative">
             {/* You can add images here */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
               <Image
                 alt="seo team"
                 src="https://demo.awaikenthemes.com/artistics/seo/wp-content/uploads/2024/12/demo-2-about-img-1.jpg"

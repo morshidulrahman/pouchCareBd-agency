@@ -1,12 +1,13 @@
+import About from "@/components/About";
 import AboutAgency from "@/components/AboutAgency";
-import AgencyFeature from "@/components/AgencyFeature";
+import AboutAGencyComponent from "@/components/AboutAGencyComponent";
 import BannerMarque from "@/components/BannerMarque";
-import Features from "@/components/Features";
+import HowItWorks from "@/components/HowItWorks";
 import LetsWorkTogether from "@/components/LetsWorkTogether";
+import OurService from "@/components/OurService";
+import ServiceComponents from "@/components/Service";
 import TestimonialSection from "@/components/TestimonialSection";
 import HeaderComponent from "@/moduels/HeaderComponent";
-import OurApproach from "@/moduels/OurApproach";
-import OurTeams from "@/moduels/OurTeams";
 import WhoWerAre from "@/moduels/WhoWerAre";
 import React from "react";
 
@@ -14,16 +15,17 @@ const page = () => {
   return (
     <div>
       <HeaderComponent
-        title="About"
-        highlight="us"
-        breadcrumb={[{ label: "Home", href: "/" }, { label: "About Us" }]}
+        title="Our"
+        highlight="Services"
+        breadcrumb={[{ label: "Home", href: "/" }, { label: "Services" }]}
       />
       <BannerMarque />
-      <AboutAgency />
-      <OurApproach />
+      <OurService />
+      <AboutAGencyComponent />
       <WhoWerAre />
-      <Features />
-      <OurTeams />
+      <About />
+      <ServiceComponents />
+      <HowItWorks />
       <TestimonialSection />
       <LetsWorkTogether />
     </div>

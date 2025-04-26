@@ -2,14 +2,12 @@ import SectionHeading from "@/moduels/Header";
 import React from "react";
 import Button from "./Button";
 import Image from "next/image";
+import TopGradientLayers from "@/moduels/TopGradientLayer";
 
 const Features = () => {
   return (
-    <section
-      className="relative bg-black text-white py-20 overflow-hidden"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
+    <section className="relative py-20 overflow-hidden">
+      <TopGradientLayers />
       <div className="container mx-auto px-4">
         {/* Header */}
         <div
@@ -18,13 +16,13 @@ const Features = () => {
           data-aos-duration="1000"
         >
           <div>
-            <SectionHeading title="How it Works" />
+            <SectionHeading title="Features" />
             <h2 className="text-4xl md:text-5xl font-bold mb-2">
               Innovative<span className="text-primary">features</span> for
               <br className="hidden md:block" /> your digital success
             </h2>
           </div>
-          <div className="flex flex-col md:items-end gap-2">
+          <div className="flex flex-col  gap-2">
             <p className="text-gray-300 max-w-md">
               Our proven process combines research, strategy, and creativity to
               deliver tailored solutions that drive measurable results.
