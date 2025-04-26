@@ -46,7 +46,7 @@ const BenefitsAgency = () => {
         data-aos-duration="1000"
       >
         <div>
-          <SectionHeading title="How it Works" />
+          <SectionHeading title="KEY BENEFITS" />
           <h2 className="text-4xl md:text-5xl font-bold mb-2">
             Our proven <span className="text-primary">process</span> for
             <br className="hidden md:block" /> achieving success
