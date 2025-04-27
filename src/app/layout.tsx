@@ -6,6 +6,7 @@ import AosProvider from "@/provider/AosProvider";
 import ThemeProvider from "@/provider/ThemeProvider";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -17,28 +18,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Digital Marketing & Web Development Expert | SEO Specialist",
+  title: "Pouchcare | Digital Marketing, SEO, and Web Development Experts",
   description:
-    "Expert in digital marketing, web development, and SEO optimization. Proven track record in delivering results for businesses across India and Pakistan.",
+    "Pouchcare specializes in digital marketing, SEO optimization, and web development services. Helping businesses across India and Pakistan grow their online presence and achieve success.",
   keywords:
-    "digital marketing, web development, SEO, Pakistan, India, business growth, online presence",
+    "Pouchcare, digital marketing, web development, SEO, SEO agency, Pakistan, India, business growth, online marketing",
   icons: {
     icon: "/favicon.png",
     apple: "/favicon.png",
   },
   openGraph: {
-    title: "Digital Marketing & Web Development Expert | SEO Specialist",
+    title: "Pouchcare | Digital Marketing, SEO, and Web Development Experts",
     description:
-      "Expert in digital marketing, web development, and SEO optimization. Proven track record in delivering results for businesses across India and Pakistan.",
+      "Pouchcare specializes in digital marketing, SEO optimization, and web development services. Helping businesses across India and Pakistan grow their online presence and achieve success.",
     type: "website",
     locale: "en_US",
-    siteName: "Digital Marketing Portfolio",
+    siteName: "Pouchcare",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Digital Marketing & Web Development Expert | SEO Specialist",
+    title: "Pouchcare | Digital Marketing, SEO, and Web Development Experts",
     description:
-      "Expert in digital marketing, web development, and SEO optimization. Proven track record in delivering results.",
+      "Grow your business with Pouchcare's expert digital marketing, SEO, and web development solutions.",
   },
 };
 
@@ -53,6 +54,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <GoogleAnalytics ga_id="G-PY485TY76C" />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
