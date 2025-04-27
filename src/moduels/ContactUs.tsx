@@ -1,7 +1,5 @@
-import React from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
 import Image from "next/image";
-import Location from "@/components/Location";
 import TopGradientLayers from "./TopGradientLayer";
 
 const ContactUs = () => {
@@ -135,7 +133,6 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <Location />
       </div>
     </section>
   );
