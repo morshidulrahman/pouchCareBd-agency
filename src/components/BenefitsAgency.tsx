@@ -40,7 +40,7 @@ const features = [
 
 const BenefitsAgency = () => {
   return (
-    <section className="py-12 text-white relative">
+    <section className="py-12 text-white relative bg-black">
       <TopGradientLayers />
       <div className="container mx-auto px-4">
         <div
