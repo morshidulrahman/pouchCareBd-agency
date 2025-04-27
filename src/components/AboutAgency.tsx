@@ -4,12 +4,14 @@ import Image from "next/image";
 import SectionHeading from "@/moduels/Header";
 import { features } from "@/data";
 import BottomLayer from "@/moduels/BottomLayer";
+import TopGradientLayers from "@/moduels/TopGradientLayer";
 
 // Use Lucide icons for each feature
 
 const AboutAgency = () => {
   return (
     <section className="relative bg-black text-white py-20 overflow-hidden">
+      <TopGradientLayers />
       <div className="container mx-auto px-4 flex flex-col lg:flex-row gap-10 items-center">
         {/* Left Side */}
         <div

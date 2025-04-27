@@ -30,7 +30,7 @@ const LetsWorkTogether = () => {
           </h1>
           {/* Neon Button */}
           <Link
-            href="/contact"
+            href="/contact-us"
             className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-30"
             style={{ marginTop: "1.5rem" }}
           >

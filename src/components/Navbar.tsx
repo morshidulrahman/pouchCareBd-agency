@@ -48,9 +48,9 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-4 py-5">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <span className="text-white text-xl font-bold">
+          <Link href="/" className="text-white text-xl font-bold">
             PouchCare<span className="text-[#c5ff00]">.</span>
-          </span>
+          </Link>
         </div>
         {/* Desktop Nav Links */}
         <ul className="hidden md:flex items-center gap-6 text-white font-medium">
@@ -112,17 +112,17 @@ const Navbar = () => {
           <MenuIcon size={28} />
         </button>
       </div>
-      
+
       {/* Mobile Menu Overlay */}
-      <div 
+      <div
         className={`fixed inset-0 bg-black/70 backdrop-blur-sm z-40 md:hidden transition-opacity duration-300 ${
           mobileOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
         onClick={() => setMobileOpen(false)}
       />
-      
+
       {/* Mobile Menu Drawer */}
-      <div 
+      <div
         className={`fixed top-0 left-0 w-full bg-black/95 backdrop-blur-md z-50 md:hidden transition-transform duration-500 ease-in-out transform ${
           mobileOpen ? "translate-y-0" : "-translate-y-full"
         }`}
@@ -144,7 +144,7 @@ const Navbar = () => {
               <CloseIcon size={24} />
             </button>
           </div>
-          
+
           {/* Mobile Nav Links */}
           <ul className="flex flex-col gap-6 text-white font-medium mb-8">
             {navLinks.map((link) => (
@@ -162,7 +162,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          
+
           {/* Social Icons in Mobile Menu */}
           <div className="flex items-center gap-6 mt-8 pb-8">
             <a

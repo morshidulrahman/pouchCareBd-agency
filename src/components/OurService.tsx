@@ -6,6 +6,7 @@ import Image from "next/image";
 import CountUp from "react-countup";
 import ServiceCounter from "@/moduels/ServiceCounter";
 import BottomLayer from "@/moduels/BottomLayer";
+import TopGradientLayers from "@/moduels/TopGradientLayer";
 
 const services = [
   {
@@ -28,6 +29,7 @@ const services = [
 const OurService = () => {
   return (
     <section className="relative bg-black text-white py-20 overflow-hidden">
+      <TopGradientLayers />
       <div className="container mx-auto px-4">
         {/* Header */}
         <div

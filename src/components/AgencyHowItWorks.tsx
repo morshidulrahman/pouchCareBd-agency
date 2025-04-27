@@ -57,7 +57,7 @@ const AgencyHowItWorks = () => {
           {steps.map((step, idx) => (
             <div
               key={idx}
-              className="custom-glass-card hover:!-translate-y-2.5 transition-all duration-300"
+              className="custom-glass-card hover:!-translate-y-2.5 !transition-all !duration-300"
               data-aos="fade-up"
               data-aos-delay={idx * 200}
               data-aos-duration="800"

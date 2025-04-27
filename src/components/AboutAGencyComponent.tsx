@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Button from "./Button";
 import SectionHeading from "@/moduels/Header";
+import TopGradientLayers from "@/moduels/TopGradientLayer";
 
 const cardData = [
   {
@@ -24,6 +25,7 @@ const cardData = [
 const AboutAGencyComponent = () => {
   return (
     <section className="bg-black text-white py-24 relative overflow-hidden">
+      <TopGradientLayers />
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between lg:flex-row flex-col gap-6">
           <div className="lg:w-1/2">

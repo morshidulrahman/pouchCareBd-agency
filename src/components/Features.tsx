@@ -6,7 +6,7 @@ import TopGradientLayers from "@/moduels/TopGradientLayer";
 
 const Features = () => {
   return (
-    <section className="relative py-20 overflow-hidden">
+    <section className="relative py-20 overflow-hidden bg-zinc-950">
       <TopGradientLayers />
       <div className="container mx-auto px-4">
         {/* Header */}

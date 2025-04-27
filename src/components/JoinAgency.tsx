@@ -1,6 +1,7 @@
 import SectionHeading from "@/moduels/Header";
 import React from "react";
 import { Twitter, Linkedin, Instagram } from "lucide-react";
+import TopGradientLayers from "@/moduels/TopGradientLayer";
 
 const socials = [
   {
@@ -46,6 +47,7 @@ const socials = [
 const JoinAgency = () => {
   return (
     <section className="relative bg-black text-white py-20 overflow-hidden">
+      <TopGradientLayers />
       <div className="container mx-auto px-4">
         {/* Header */}
         <div

@@ -5,7 +5,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
+    <div className="bg-zinc-950">
       <HeaderComponent
         title="Our"
         highlight="blogs"
