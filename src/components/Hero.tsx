@@ -1,9 +1,7 @@
-"use client";
-import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import React from "react";
-import { Typewriter } from "react-simple-typewriter";
+import TypeWritters from "./TypeWritters";
 
 const Hero = () => {
   return (
@@ -34,22 +32,7 @@ const Hero = () => {
             Elevate your business
             <br className="hidden sm:block" />
             with our tailored <br />
-            <span className="text-[#c5ff00] inline-flex">
-              <Typewriter
-                words={[
-                  "Digital Marketing",
-                  "SEO Solutions",
-                  "Web Development",
-                  "Brand Strategy",
-                ]}
-                loop={0}
-                cursor
-                cursorStyle="_"
-                typeSpeed={70}
-                deleteSpeed={50}
-                delaySpeed={1000}
-              />
-            </span>
+            <TypeWritters />
           </h1>
           <p
             className="text-gray-300 text-base md:text-lg mb-6 md:mb-8 max-w-2xl"
