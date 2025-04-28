@@ -8,6 +8,7 @@ import {
   Globe,
   X as CloseIcon,
   Menu as MenuIcon,
+  X,
 } from "lucide-react";
 
 const navLinks = [
@@ -81,27 +82,30 @@ const Navbar = () => {
         </ul>
         {/* Social Icons */}
         <div className="hidden md:flex items-center gap-4">
-          <a
-            href="#"
+          <Link
+            href="https://www.facebook.com/pouchcaredm"
             className="text-[#c5ff00] hover:text-white transition-colors"
             aria-label="Facebook"
+            target="_blank"
           >
             <Facebook size={20} />
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="https://pouchcare.com"
             className="text-[#c5ff00] hover:text-white transition-colors"
             aria-label="Instagram"
+            target="_blank"
           >
             <Instagram size={20} />
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="https://x.com/Pouchcareofficial"
             className="text-[#c5ff00] hover:text-white transition-colors"
             aria-label="Website"
+            target="_blank"
           >
-            <Globe size={20} />
-          </a>
+            <X size={20} />
+          </Link>
         </div>
         {/* Mobile Menu Button */}
         <button

@@ -43,7 +43,7 @@ const ContactUs = () => {
                       <div>
                         <p className="text-sm text-gray-300">Email Us</p>
                         <p className="text-white font-medium">
-                          info@domainname.com
+                          Contact@pouchcare.com
                         </p>
                       </div>
                     </div>
@@ -56,7 +56,7 @@ const ContactUs = () => {
                       <div>
                         <p className="text-sm text-gray-300">Address</p>
                         <p className="text-white font-medium">
-                          7676 Arden Avenue, Ginashire
+                          New Bally Road, Phulpur
                         </p>
                       </div>
                     </div>

@@ -21,7 +21,6 @@ const Page = () => {
       <AboutAGencyComponent />
       <AboutAgency />
       <OurService />
-      <AgencyHowItWorks />
       <JoinAgency />
       <Features />
       <BenefitsAgency />

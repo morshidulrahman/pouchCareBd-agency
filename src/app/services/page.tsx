@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import AboutAgency from "@/components/AboutAgency";
 import AboutAGencyComponent from "@/components/AboutAGencyComponent";
+import AgencyHowItWorks from "@/components/AgencyHowItWorks";
 import BannerMarque from "@/components/BannerMarque";
 import HowItWorks from "@/components/HowItWorks";
 import LetsWorkTogether from "@/components/LetsWorkTogether";
@@ -26,6 +27,7 @@ const page = () => {
       <About />
       <ServiceComponents />
       <HowItWorks />
+      <AgencyHowItWorks />
       <TestimonialSection />
       <LetsWorkTogether />
     </div>
