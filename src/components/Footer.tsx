@@ -1,20 +1,33 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { Phone, Mail, X, Facebook, Instagram, MapPin } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-black/90 backdrop-blur-lg border-t border-white/10">
-      <div className="container mx-auto px-4 py-8 md:py-12">
+    <footer className="relative overflow-hidden bg-black/90 backdrop-blur-lg border-t border-white/10">
+      {/* Decorative Layered Background */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 z-0"
+      >
+        <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[120vw] h-[60vw] bg-gradient-to-tr from-[#bff747]/30 via-[#1a1a1a]/60 to-[#bff747]/10 rounded-full blur-3xl opacity-80"></div>
+        <svg
+          className="absolute bottom-0 right-0 w-1/2 h-1/2 opacity-30"
+          viewBox="0 0 400 400"
+          fill="none"
+        >
+          <circle cx="200" cy="200" r="200" fill="#bff747" fillOpacity="0.08" />
+        </svg>
+      </div>
+      <div className="relative z-10 container mx-auto px-4 py-8 md:py-12">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo & Contact */}
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2 mb-2">
               {/* <Image src="/logo.png" alt="Artistic" width={40} height={40} /> */}
-              <span className="text-[#bff747] text-2xl font-bold">
+              <span className="text-[#bff747] text-2xl font-bold drop-shadow-lg">
                 PourchCare.
               </span>
             </div>
@@ -42,54 +55,51 @@ const Footer = () => {
             </div>
           </div>
 
+          <div>
+            <h3 className="text-white text-lg font-semibold mb-4">
+              About Our Agency
+            </h3>
+            <p className="text-gray-400 text-sm mb-3">
+              PouchCare is a leading digital agency specializing in web
+              development, app solutions, and digital marketing. We empower
+              businesses to grow online with innovative strategies and
+              cutting-edge technology.
+            </p>
+            <ul className="text-gray-400 text-sm space-y-2">
+              <li>
+                <span className="text-[#bff747] font-semibold">Founded:</span>{" "}
+                2021
+              </li>
+              <li>
+                <span className="text-[#bff747] font-semibold">Clients:</span>{" "}
+                200+ worldwide
+              </li>
+              <li>
+                <span className="text-[#bff747] font-semibold">Support:</span>{" "}
+                24/7 Customer Care
+              </li>
+            </ul>
+          </div>
+
           {/* Quick Link */}
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">
               Quick Links
             </h3>
             <ul className="space-y-2">
-              {[
-                "Home",
-                "About Us",
-                "Services",
-                "Blog",
-                "Portfolio",
-                "Pricing",
-              ].map((link) => (
-                <li key={link}>
-                  <Link
-                    href={`/${link.replace(/\s+/g, "").toLowerCase()}`}
-                    className="text-gray-400 hover:text-[#bff747] transition-colors flex items-center gap-2"
-                  >
-                    <span className="w-1.5 h-1.5 bg-[#bff747] rounded-full"></span>
-                    {link}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Support */}
-          <div>
-            <h3 className="text-white text-lg font-semibold mb-4">Support</h3>
-            <ul className="space-y-2">
-              {[
-                "Contact us",
-                "Terms & Conditions",
-                "Privacy Policy",
-                "Career",
-                "Help & FAQ",
-              ].map((link) => (
-                <li key={link}>
-                  <Link
-                    href={`/${link.replace(/\s+/g, "").toLowerCase()}`}
-                    className="text-gray-400 hover:text-[#bff747] transition-colors flex items-center gap-2"
-                  >
-                    <span className="w-1.5 h-1.5 bg-[#bff747] rounded-full"></span>
-                    {link}
-                  </Link>
-                </li>
-              ))}
+              {["Home", "About", "Services", "Blogs", "Contact-Us"].map(
+                (link) => (
+                  <li key={link}>
+                    <Link
+                      href={`/${link.replace(/\s+/g, "").toLowerCase()}`}
+                      className="text-gray-400 hover:text-[#bff747] transition-colors flex items-center gap-2"
+                    >
+                      <span className="w-1.5 h-1.5 bg-[#bff747] rounded-full"></span>
+                      {link}
+                    </Link>
+                  </li>
+                )
+              )}
             </ul>
           </div>
 
@@ -109,7 +119,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="rounded-md px-5 py-2 bg-[#bff747] text-black font-semibold hover:bg-[#d4ff6b] transition-colors whitespace-nowrap"
+                className="rounded-md px-5 py-2 bg-[#bff747] text-black font-semibold hover:bg-[#d4ff6b] transition-colors whitespace-nowrap shadow"
               >
                 Subscribe
               </button>
@@ -118,21 +128,21 @@ const Footer = () => {
               <Link
                 target="_blank"
                 href="https://x.com/Pouchcareofficial"
-                className="w-8 h-8 rounded-full border border-[#bff747] flex items-center justify-center hover:bg-[#bff747] hover:text-black transition-colors"
+                className="w-8 h-8 rounded-full border border-[#bff747] flex items-center justify-center hover:bg-[#bff747] hover:text-black transition-colors shadow"
               >
                 <X className="w-4 h-4" />
               </Link>
               <Link
                 target="_blank"
                 href="https://www.facebook.com/pouchcaredm"
-                className="w-8 h-8 rounded-full border border-[#bff747] flex items-center justify-center hover:bg-[#bff747] hover:text-black transition-colors"
+                className="w-8 h-8 rounded-full border border-[#bff747] flex items-center justify-center hover:bg-[#bff747] hover:text-black transition-colors shadow"
               >
                 <Facebook className="w-4 h-4" />
               </Link>
               <Link
                 target="_blank"
                 href="https://pouchcare.com"
-                className="w-8 h-8 rounded-full border border-[#bff747] flex items-center justify-center hover:bg-[#bff747] hover:text-black transition-colors"
+                className="w-8 h-8 rounded-full border border-[#bff747] flex items-center justify-center hover:bg-[#bff747] hover:text-black transition-colors shadow"
               >
                 <Instagram className="w-4 h-4" />
               </Link>

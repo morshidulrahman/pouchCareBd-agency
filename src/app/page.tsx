@@ -15,7 +15,6 @@ import BannerMarque from "@/components/BannerMarque";
 const Page = () => {
   return (
     <main className="min-h-screen relative">
-      {/* Video Background */}
       <Hero />
       <BannerMarque />
       <AboutAGencyComponent />

@@ -30,7 +30,7 @@ const featuresList = [
     description:
       "Strategies combining SEO, PPC, content marketing, and social media to maximize ROI and drive measurable business growth through targeted campaigns.",
     image:
-      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/digital-features-img-1.jpg",
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/digital-features-img-2.jpg",
     icon: <BarChart3 className="w-5 h-5" />,
     size: "small",
   },
@@ -40,7 +40,7 @@ const featuresList = [
     description:
       "Comprehensive search engine optimization services that improve your website's visibility, drive organic traffic, and help you rank higher for relevant keywords.",
     image:
-      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/digital-features-img-2.jpg",
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/service-process-step-1.jpg",
     icon: <Search className="w-5 h-5" />,
     size: "small",
   },
@@ -50,7 +50,7 @@ const featuresList = [
     description:
       "Custom, responsive website design and development that delivers exceptional user experiences across all devices while reflecting your brand identity.",
     image:
-      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/why-choose-image.jpg",
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/faq-img-2.jpg",
     icon: <Globe className="w-5 h-5" />,
     size: "large",
   },

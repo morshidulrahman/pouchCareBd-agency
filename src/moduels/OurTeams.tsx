@@ -8,7 +8,8 @@ const teamMembers = [
   {
     name: "John Doe",
     role: "Lead Designer",
-    image: "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/team-2.jpg",
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/team-1.jpg",
     socials: [
       { icon: <Facebook className="w-5 h-5" />, href: "#" },
       { icon: <Instagram className="w-5 h-5" />, href: "#" },
@@ -20,7 +21,8 @@ const teamMembers = [
   {
     name: "Jane Smith",
     role: "Project Manager",
-    image: "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/team-2.jpg",
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/team-2.jpg",
     socials: [
       { icon: <Facebook className="w-5 h-5" />, href: "#" },
       { icon: <Instagram className="w-5 h-5" />, href: "#" },
@@ -32,7 +34,8 @@ const teamMembers = [
   {
     name: "Alex Lee",
     role: "Developer",
-    image: "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/team-2.jpg",
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/team-3.jpg",
     socials: [
       { icon: <Facebook className="w-5 h-5" />, href: "#" },
       { icon: <Instagram className="w-5 h-5" />, href: "#" },
@@ -44,7 +47,8 @@ const teamMembers = [
   {
     name: "Sara Kim",
     role: "Marketing",
-    image: "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/team-2.jpg",
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/team-4.jpg",
     socials: [
       { icon: <Facebook className="w-5 h-5" />, href: "#" },
       { icon: <Instagram className="w-5 h-5" />, href: "#" },
@@ -57,7 +61,7 @@ const teamMembers = [
 
 const OurTeams = () => {
   return (
-    <section className="relative py-20 overflow-hidden">
+    <section className="relative py-20 overflow-hidden bg-black">
       <TopGradientLayers />
       <div className="container mx-auto px-4">
         {/* Header */}

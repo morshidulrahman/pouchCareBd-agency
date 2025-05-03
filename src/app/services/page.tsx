@@ -1,5 +1,4 @@
 import About from "@/components/About";
-import AboutAgency from "@/components/AboutAgency";
 import AboutAGencyComponent from "@/components/AboutAGencyComponent";
 import AgencyHowItWorks from "@/components/AgencyHowItWorks";
 import BannerMarque from "@/components/BannerMarque";
@@ -8,6 +7,7 @@ import LetsWorkTogether from "@/components/LetsWorkTogether";
 import OurService from "@/components/OurService";
 import ServiceComponents from "@/components/Service";
 import TestimonialSection from "@/components/TestimonialSection";
+import WebsiteService from "@/components/WebsiteService";
 import HeaderComponent from "@/moduels/HeaderComponent";
 import WhoWerAre from "@/moduels/WhoWerAre";
 import React from "react";
@@ -22,6 +22,7 @@ const page = () => {
       />
       <BannerMarque />
       <OurService />
+      <WebsiteService />
       <AboutAGencyComponent />
       <WhoWerAre />
       <About />

@@ -12,21 +12,21 @@ export const servicesData = [
     title: "Content Creation and Optimization",
     icon: <FileText className="w-6 h-6 text-[#c5ff00]" />,
     imageUrl:
-      "https://demo.awaikenthemes.com/artistics/seo/wp-content/uploads/2024/12/service-1.jpg",
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/digital-features-img-2.jpg",
     altText: "Content Creation",
   },
   {
     title: "SEO Consultation and Strategies",
     icon: <PieChart className="w-6 h-6 text-[#c5ff00]" />,
     imageUrl:
-      "https://demo.awaikenthemes.com/artistics/seo/wp-content/uploads/2024/12/service-1.jpg",
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/service-process-step-1.jpg",
     altText: "SEO Consultation",
   },
   {
     title: "SEO Performance Tracking and Analytic",
     icon: <BarChart className="w-6 h-6 text-[#c5ff00]" />,
     imageUrl:
-      "https://demo.awaikenthemes.com/artistics/seo/wp-content/uploads/2024/12/service-1.jpg",
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/service-single-img.jpg",
     altText: "SEO Performance",
   },
 ];
@@ -178,36 +178,35 @@ export const newsData = [
   },
 ];
 
-
 export const BlogsData = [
   {
     image:
       "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-1.jpg",
-    title: "UI/UX Design Principles for Better User Engagement",
+    title: "How to Boost User Engagement with UI/UX Design",
   },
   {
     image:
       "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-2.jpg",
-    title: "UI/UX Design Principles for Better User Engagement",
+    title: "Modern Web Design Trends for 2024",
   },
   {
     image:
       "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-3.jpg",
-    title: "UI/UX Design Principles for Better User Engagement",
-  },
-   {
-    image:
-      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-1.jpg",
-    title: "UI/UX Design Principles for Better User Engagement",
+    title: "Effective Strategies for Mobile App Success",
   },
   {
     image:
-      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-2.jpg",
-    title: "UI/UX Design Principles for Better User Engagement",
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/digital-features-img-2.jpg",
+    title: "Optimizing Digital Features for Better Performance",
   },
   {
     image:
-      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/post-3.jpg",
-    title: "UI/UX Design Principles for Better User Engagement",
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/service-process-step-1.jpg",
+    title: "Step-by-Step Guide to Service Process Improvement",
+  },
+  {
+    image:
+      "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/service-single-img.jpg",
+    title: "Case Study: Successful Service Implementation",
   },
 ];

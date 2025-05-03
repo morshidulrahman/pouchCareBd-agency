@@ -123,10 +123,10 @@ const About = () => {
                 ></Image>
                 <Image
                   alt="seo team"
-                  src="https://demo.awaikenthemes.com/artistics/seo/wp-content/uploads/2024/12/demo-2-about-img-1.jpg"
+                  src="https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/service-process-step-1.jpg"
                   width={400}
                   height={400}
-                  className="rounded-t-full rounded-b-full w-[290px] h-[400px]"
+                  className="rounded-t-full rounded-b-full w-[290px] h-[400px] object-cover"
                 ></Image>
               </div>
             </div>

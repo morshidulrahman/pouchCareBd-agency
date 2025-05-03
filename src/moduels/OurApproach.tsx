@@ -15,19 +15,19 @@ const cards = [
     title: "Our Vision",
     desc: "Shaping the future through innovative and impactful digital experiences.",
     icon: <Eye className="w-7 h-7 text-[#bff747]" />,
-    img: "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/our-mission-img.jpg",
+    img: "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/our-vision-img.jpg",
   },
   {
     title: "Our Value",
     desc: "Integrity, creativity, innovation, collaboration, excellence, results.",
     icon: <Gem className="w-7 h-7 text-[#bff747]" />,
-    img: "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/our-mission-img.jpg",
+    img: "https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/our-value-img.jpg",
   },
 ];
 
 const OurApproach = () => {
   return (
-    <section className="w-full py-16   flex items-center justify-center relative">
+    <section className="w-full py-16 bg-black  flex items-center justify-center relative">
       <TopGradientLayers />
       <div className="container mx-auto px-4">
         <div

@@ -72,7 +72,7 @@ const WhoWerAre = () => {
               data-aos-delay="200"
             >
               <Image
-                src="/clients/satisfy-client-img-1.jpg"
+                src="https://demo.awaikenthemes.com/artistics/wp-content/uploads/2024/11/our-value-img.jpg"
                 alt="Video"
                 fill
                 className="object-cover"
