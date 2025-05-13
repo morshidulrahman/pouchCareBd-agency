@@ -42,21 +42,9 @@ const ContactUs = () => {
                       </div>
                       <div>
                         <p className="text-sm text-gray-300">Email Us</p>
-                        <p className="text-white font-medium">
-                          Contact@pouchcare.com
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* Address */}
-                    <div className="flex items-center gap-4 border-b border-[#c5ff00]/30 py-6">
-                      <div className="bg-[#c5ff00] rounded-full p-3">
-                        <MapPin className="w-5 h-5 text-black" />
-                      </div>
-                      <div>
-                        <p className="text-sm text-gray-300">Address</p>
-                        <p className="text-white font-medium">
-                          New Bally Road, Phulpur
+                        <p className="text-white font-medium flex items-center gap-2">
+                          Info@pouchcare.com{" "}
+                          <p className="pl-2">Contact@pouchcare.com</p>
                         </p>
                       </div>
                     </div>

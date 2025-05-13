@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://pouchcare.com
+
+# Sitemaps
+Sitemap: https://pouchcare.com/sitemap.xml
