@@ -71,10 +71,8 @@ const AboutAgency = () => {
                 <span className="absolute flex items-center justify-center w-6 h-6 bg-[#bff747] rounded-full -start-3 ring-8 ring-black">
                   {item.icon}
                 </span>
-                <time className="pl-2 mb-1 text-sm font-normal leading-none text-[#bff747]/80">
-                  {item.date}
-                </time>
-                <h3 className="text-lg font-semibold text-white">
+
+                <h3 className="text-lg font-semibold text-white pl-2">
                   {item.title}
                 </h3>
                 <p className="mb-4 text-base font-normal text-gray-400">

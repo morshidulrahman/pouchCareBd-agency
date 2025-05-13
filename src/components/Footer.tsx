@@ -43,15 +43,9 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-3 text-[#bff747]">
               <Mail className="w-5 h-5" />
-              <span className="text-white font-medium text-base">
-                Contact@pouchcare.com
-              </span>
-            </div>
-            <div className="flex items-center gap-3 text-[#bff747]">
-              <MapPin className="w-5 h-5" />
-              <span className="text-white font-medium text-base">
-                New Bally Road, Phulpur
-              </span>
+              <div className="flex flex-col">
+                <a href="mailto:Info@pouchcare.com"> Info@pouchcare.com</a>
+              </div>
             </div>
           </div>
 

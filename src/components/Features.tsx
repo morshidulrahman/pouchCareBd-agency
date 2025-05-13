@@ -138,7 +138,9 @@ const Features = () => {
               Our team of experts is ready to help you achieve your business
               goals with our comprehensive suite of digital marketing services.
             </p>
-            <Button text="Get Started Today" href="/contact-us"></Button>
+            <div className="flex items-center justify-center">
+              <Button text="Get Started Today" href="/contact-us"></Button>
+            </div>
           </div>
         </div>
       </div>
